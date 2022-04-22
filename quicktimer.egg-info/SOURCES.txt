@@ -1,0 +1,8 @@
+setup.py
+quicktimer/__main__.py
+quicktimer/test_main.py
+quicktimer.egg-info/PKG-INFO
+quicktimer.egg-info/SOURCES.txt
+quicktimer.egg-info/dependency_links.txt
+quicktimer.egg-info/entry_points.txt
+quicktimer.egg-info/top_level.txt

@@ -6,7 +6,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="quicktimer",
+    name="quicktimekeeper",
     version="1.0.0",
     description="Quickly time functions easily",
     long_description=README,
@@ -20,11 +20,11 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["quicktimer"],
+    packages=["quicktimekeeper"],
     include_package_data=True,
     entry_points={
         "console_scripts": [
-            "realpython=quicktimer.__main__:main",
+            "realpython=quicktimekeeper.__main__:main",
         ]
     },
 )

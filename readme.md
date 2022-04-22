@@ -1,13 +1,13 @@
-# QuickTimer
+# QuickTimeKeeper
 
-QuickTimer is a small Python library for timing how long functions take to run.
+QuickTimeKeeper is a small Python library for timing how long functions take to run.
 
 ## Usage
 
-Simply import QuickTimer and call the `time_function` method to time any function you pass in as the parameter. It returns how long the function took to run. Optionally, you can pass in extra args to `time_function` which will be passed into the function to time.
+Simply import QuickTimeKeeper and call the `time_function` method to time any function you pass in as the parameter. It returns how long the function took to run. Optionally, you can pass in extra args to `time_function` which will be passed into the function to time.
 
 ```python
-import quicktimer
+import quicktimekeeper as quicktimer
 
 def fibonacci(n):
     if n < 2:
