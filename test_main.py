@@ -1,6 +1,6 @@
 import os
 
-from quicktimer import time_function
+from quicktimer.__main__ import time_function
 
 def test_timing():
     """
